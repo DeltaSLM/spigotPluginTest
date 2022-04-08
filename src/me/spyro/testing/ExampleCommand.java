@@ -1,8 +1,11 @@
 package me.spyro.testing;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+
+import java.util.Objects;
 
 public class ExampleCommand implements CommandExecutor {
     Main plugin;
