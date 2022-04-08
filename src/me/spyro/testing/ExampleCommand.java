@@ -22,7 +22,9 @@ public class ExampleCommand implements CommandExecutor {
             return false;
         }
 
-        sender.sendMessage("Successfully used example command!");
+        String config = (String) this.plugin.getConfig().get("prefix");
+
+        sender.sendMessage(ChatColor.translateAlternateColorCodes('&', Objects.requireNonNull(config)) + sender.getName() + " has successfully used example command!");
 
         return true;
     }
