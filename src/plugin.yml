@@ -1,0 +1,10 @@
+name: SpyroTesting # the plugins name as it should appear in the plugin list /pl
+version: 1.0 # the plugin's version
+author: Spyro
+main: me.spyro.testing.Main
+api-version: 1.18 # the version of the API you want to use, required starting with 1.13
+
+commands:
+  example:
+    description: Just an example command
+    usage: "/example"
